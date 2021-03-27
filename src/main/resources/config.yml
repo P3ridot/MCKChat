@@ -1,0 +1,48 @@
+msgs: #Konfiguracja wiadomosci
+  chatclear: #Wiadomosc ktora se wyswietla gdy gracz wyczysci chat
+  - ' '
+  - '&8» &7Administrator &2{ADMIN} &bwyczyscil &7chat!'
+  - ' '
+  chaton: #Wiadomosc ktora se wyswietla gdy gracz wlaczy chat
+  - ' '
+  - '&8» &7Administrator &2{ADMIN} &awlaczyl &7chat!'
+  - ' ' 
+  chatoff: #Wiadomosc ktora se wyswietla gdy gracz wylaczy chat
+  - ' '
+  - '&8» &7Administrator &2{ADMIN} &cwylaczyl &7chat!'
+  - ' '
+error: #Konfiguracja wiadomosci z errorami
+  correctusage: #Wiadomosc ktora se wyswietla gdy sa bledne argumenty w komendzie /chat
+  - ' '
+  - ' &8» &7Poprawne uzycie: &2/chat &bclear&8/&aon&8/&coff!'
+  - ' '
+  noperm: #Wiadomosc ktora se wyswietla gdy gracz nie ma permisji
+  - ' '
+  - ' &8» &7Nie masz uprawnien!'
+  - ' '
+  chatblock: #Wiadomosc ktora se wyswietla gdy chat jest wylaczony
+  - ' '
+  - '&8» &7Chat jest &cwylaczony&7!'
+  - ' '
+slowmode: #Konfiguracja Slowmoda
+  msg: #Wiadomosc gdy graczowi nie mina slowmode
+  - ' '
+  - ' &8» &7Na chacie bedziesz mogl napisac za: &2{TIME} &7sekund!'
+  - ' '
+  time: 5 #Casz co ile mozna pisac na chacie
+automsg: #Konfiguracja automsg
+  type: player #Dostepne: player (wysyla tylko do graczy na serwerze), console (wysyla tez do konsoli)
+  time: 1 #Co ile ma byc wysylany automsg w minutach
+  msgs: #Wiadomości automsg
+    1:
+      - '&8--------------------------------------'
+      - ' &8» &7Strona internetowa: &2MLGROUP.PL'
+      - '&8--------------------------------------'
+    2:
+      - '&8--------------------------------------'
+      - ' &8» &7Sklep: &2SERWER.PL/SKLEP'
+      - '&8--------------------------------------'
+    3:
+      - '&8--------------------------------------'
+      - ' &8» &7Zapros znajomych do gry!'
+      - '&8--------------------------------------'
